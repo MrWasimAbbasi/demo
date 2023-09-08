@@ -1,0 +1,155 @@
+body {
+    height: 100%;
+    margin: 0;
+  }
+/* hero section start
+*/
+.hero-section{
+    background-image: url('../images/sky-hero-section.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    overflow: hidden;
+}
+.navbar .nav .nav-item a{
+    color:white !important; 
+}
+.img-size img{
+    width: 50px;
+    height: 50px;
+    border-radius: 90px;
+    overflow: hidden;
+}
+.img-size h4{
+    padding-left: 10px;
+   float: right;
+}
+.hero-section-mountain-img{
+    width: 100vw;
+    position: relative;
+    left: 50%; 
+    margin-left: -50vw;
+    padding-top: 150px;
+ }
+ .hero-section-mountain-img img{
+    height: 100vh;
+ }
+ .center {
+  position: absolute;
+  color: rgb(21, 17, 17);
+  top: 42%;
+  left: 50%;
+  font-size: 3.4em;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+.center span{
+    color:rgb(43, 49, 100);
+}
+
+
+/*hero section end
+*/
+
+
+/*history section start
+*/
+
+
+.history-section{
+    background-image: url('../images/history-page-background-test.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.navbar .nav .history a{
+    color:black !important; 
+}
+
+.firstcharacter {
+    color: rgba(72, 78, 123, 0.5);
+    float: left;
+    font-family: Georgia;
+    font-size: 4em;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-left: 3px;
+  }
+
+  .drocap-text{
+    font-size: 30px !important;
+  }
+
+  .history-section-dropcap{
+    padding: 13px !important;
+  }
+ .history-section-para{
+    text-align: justify !important;
+    padding-left: 15px;
+ }
+ .history-image-section{
+    padding: 15px;
+ }
+ 
+ .history-image-main{
+    background-color: rgba(10, 9, 9, 0.7);
+    margin-top: 7%;
+    height: auto;
+ }
+ .firstcharacter2 {
+    color: rgba(0, 0, 0, 0.5);
+    float: left;
+    font-family: Georgia;
+    font-size: 2em;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-left: 3px;
+  }
+  .drocap-text2{
+    font-size: 20px !important;
+  }
+  .history-footer-inner-text{
+    padding-top: 15px  !important;
+  }
+
+/*history section end
+*/
+
+
+.mountain-page-section{
+    background-image: url('../images/mountain-background-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    overflow: hidden;
+}
+
+.mountain-bg{
+    background-color: rgb(3, 3, 69);
+    color: white;
+}
+.bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;}
+
+.parent {
+  position: relative;
+  width: 100%;
+}
+
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(2);
+    opacity: 1;
+  }
+}
+.fade-in-up {
+  animation: 1s both fadeInUp;
+}
